@@ -1,0 +1,35 @@
+.FRUITS{
+    border: 2px solid darkslategrey;
+    padding: 15px;
+}
+.cars{
+    border: 4px dashed blueviolet;
+    padding: 15px;
+    margin: 15px;
+    background-color: darkslategrey;
+}
+#Agriculture{
+    border: 3px solid antiquewhite;
+    background-color: antiquewhite;
+    padding: 15px;
+    float: 10px;
+}
+#Trade{
+    border: darkslategrey;
+    background-color: darkslategrey;
+    padding: 15px;
+    float:10px;
+}
+#Transport{
+    border: 3px solid antiquewhite;
+    background-color: antiquewhite;
+    padding: 15px;
+    float: 10px;
+}
+#formiy{
+    background-color: #e8dd97;
+    border: 3px solid #311e2b;
+    margin: 50px;
+    text-align: center;
+    font-family: "Arial Black";
+}

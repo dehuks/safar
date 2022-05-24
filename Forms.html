@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylito.css">
+    <style>
+        body{
+            background-color: darkgray;
+        }
+        h2{
+            text-align: center;
+            font-family:"Mongolian Baiti";
+            color: #060c1f;
+            font-size: 30px;
+        }
+        formiy{
+            background-color: rosybrown;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+<h2>Student registration form</h2>
+<div id="formiy">
+<form action="AboutUs.html" method="get">
+    <label for="fname">First name</label><br>
+    <input type="text" id="fname" placeholder="Enter first name"><br>
+    <label for="sname">Second name</label><br>
+    <input type="text" id="sname" placeholder="Enter second name"><br>
+    <label for="lname">Last name</label><br>
+    <input type="text" id="lname" placeholder="Enter last name"><br>
+    <label> Gender </label><br>
+    <label for="g">Male</label>
+    <input type="radio" id="g" name="gender">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender">
+    <label for="custom">Custom</label>
+    <input type="radio" id="custom" name="gender"><br>
+    <label for="baruapepe"> Email address</label>
+    <input type="email" id="baruapepe" placeholder="Enter email address"><br>
+    <label for="dob">Date of birth</label>
+    <input type="date" id="dob"><br>
+    <label for="course">Course</label>
+    <select name="Course" id="course"><
+             <option value="Android">Android</option>
+             <option value="MIT">MIT</option>
+             <option value="java">Java</option>
+             <option value="Web">Web development</option>
+             <option value="Python">Python</option>
+    </select><br>
+    <label for="pass">Password</label>
+    <input type="password" id="pass" placeholder="Input password"><br>
+    <input type="submit" value="Register here"><br>
+    <label for="upload">File to upload</label>
+    <input type="file" id="upload">
+</form>
+</div>
+</body>
+</html>
